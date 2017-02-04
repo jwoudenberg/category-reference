@@ -1,4 +1,4 @@
-port module Main exposing (..)
+port module Monoid exposing (..)
 
 import Expect exposing (Expectation)
 import Fuzz exposing (Fuzzer)
@@ -72,7 +72,7 @@ testMonoid anyValue definition =
 
 tests : Test
 tests =
-    describe "Our example monoids are are legit"
+    describe "Our example monoids are legit"
         [ testMonoid (Fuzz.list Fuzz.string) listMonoid
         , testMonoid Fuzz.int additionMonoid
         ]

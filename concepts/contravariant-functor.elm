@@ -65,9 +65,9 @@ long3 =
 
 
 
--- The type signature of map tells us this is a contravariant functor.
--- An ordinary (covariant) functor has a type signature like this:
+-- The type signature of map tells us Predicate is a contravariant functor.
+-- An ordinary (covariant) functor's map has a type signature like this:
 --     (a -> b) -> Functor a -> Functor b
 -- List and Maybe are good examples of that.
--- For a contravariant functor, a and b are flipped:
+-- For a contravariant functor's map, a and b are flipped:
 --     (b -> a) -> Functor b -> Functor a
