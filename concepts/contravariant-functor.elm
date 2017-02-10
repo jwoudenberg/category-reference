@@ -70,4 +70,4 @@ long3 =
 --     (a -> b) -> Functor a -> Functor b
 -- List and Maybe are good examples of that.
 -- For a contravariant functor's map, a and b are flipped:
---     (b -> a) -> Functor b -> Functor a
+--     (b -> a) -> Functor a -> Functor b
